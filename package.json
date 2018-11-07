@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon -e ts --exec \"npm run start\"",
     "start": "rm -rf build && tsc && node build/index.js",
-    "dev-example": "npm run start -- -e ts,js,html -w src -i build -d 2500 -x \"node x.js\""
+    "dev-example": "npm run start -- -e ts,js,html -i build -x \"node x.js\""
   },
   "keywords": [],
   "author": "maciejcieslar",
